@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http//www.google.com");
+        webView.loadUrl("https://www.facebook.com/");
         //webView.loadData("<html><body><h1>Hello World</h1><p>This is my website</p></body></html>","text/html", "UTF-8");
     }
 }
